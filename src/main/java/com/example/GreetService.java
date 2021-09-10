@@ -94,7 +94,7 @@ public class GreetService implements Service {
     }
 
     private void sendResponse(ServerResponse response, String name) {
-        String msg = String.format("%s %s!", greeting.get(), name);
+        String msg = String.format("%s %s! Automated", greeting.get(), name);
 
         JsonObject returnObject = JSON.createObjectBuilder()
                 .add("message", msg)
