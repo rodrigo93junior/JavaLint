@@ -79,7 +79,7 @@ public class GreetService implements Service {
      */
     private void getDefaultMessageHandler(ServerRequest request,
                                    ServerResponse response) {
-        sendResponse(response, "World");
+        sendResponse(response, "World! Automated");
     }
 
     /**
